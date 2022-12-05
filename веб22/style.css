@@ -1,0 +1,306 @@
+body {
+    font-family: "Calibri";
+    height: 100%;
+}
+
+.line {
+    width: 100%;
+    color: #176964;
+    border: 1px solid #176964;
+}
+
+.splitter {
+    flex-wrap: wrap;
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+}
+
+.sing_in_up {
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 0;
+    height: 50px;
+    width: 500px;
+    align-self: flex-end;
+    display: flex;
+}
+
+.sing_in {
+    margin-right: 2%;
+    font-size: 30px;
+    flex: 1;
+    background: white;
+    color: #176964;
+}
+
+.sing_in:hover {
+    background: #176964;
+    color: white;
+}
+
+.sing_up {
+    margin-left: 2%;
+    font-size: 30px;
+    flex: 1;
+    background: #176964;
+    color: white;
+}
+
+.sing_up:hover {
+    background: white;
+    color: #176964;
+}
+
+.image_box {
+    flex: 1;
+}
+
+.big_image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.icon_bar {
+    margin-top: 5%;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    flex-wrap: wrap;
+    display: flex;
+    height: 60%;
+}
+
+.icon_box {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+    border: 2px solid #176964;
+}
+
+.icon_splitter {
+    height: 50%;
+    align-items: center;
+    display: flex;
+}
+
+.icon {
+    margin-left: 1%;
+    height: 90px;
+    height: 90px;
+}
+
+.icon_text {
+    font-weight: bold;
+    margin-left: 2%;
+    flex: 1;
+    font-size: 40px;
+    color: #176964;
+}
+
+.icon_second_text {
+    margin-top: 1%;
+    margin-left: 2%;
+    flex: 1;
+    color: black;
+    font-size: 25px;
+}
+
+.column_block {
+    flex: 1.2;
+    align-content: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#photo_bar {
+    justify-items: flex-start;
+    align-content: center;
+    height: 55%;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.photo_box {
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    width: 330px;
+}
+
+.photo {
+    height: 330px;
+    width: 330px;
+    margin-bottom: 0;
+}
+
+#buy {
+    margin-top: 5%;
+}
+
+#column_buy {
+    justify-content: start;
+    justify-items: start;
+}
+
+.buy_photo {
+    object-fit: cover;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex: 1;
+    height: 100%;
+    width: 90%;
+}
+
+#buy_big_image {
+    margin-right: 3%;
+    width: 80%;
+    height: 100%;
+}
+
+.photo_name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.photo_price {
+    margin-top: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.shop {
+    background: #F3F4F6;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    height: 50%;
+    width: 94%;
+}
+
+#column_shop {
+    flex: 2;
+    justify-content: center;
+    justify-items: center;
+}
+
+.button {
+    color: white;
+    font-size: 25px;
+    background: #176964;
+    margin-left: 5%;
+    width: 300px;
+    height: 80px;
+}
+
+.button:hover {
+    color: #176964;
+    background: white;
+}
+
+.shop_img {
+    flex: 1;
+    margin-right: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.shop_text {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.buy_text {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    flex: 1;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.star_text {
+    margin-top: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-sizing: border-box;
+    font-size: 100px;
+    color: #176964;
+}
+
+.second_text {
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 40px;
+    color: black;
+}
+
+.center_text {
+    font-size: 50px;
+    text-align: center;
+}
+
+.main_info {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 30px;
+    color: #176964;
+}
+
+.second_info {
+    font-size: 25px;
+}
+
+#info {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 20%;
+}
+
+.info_column {
+    flex: 1;
+    align-content: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen  and (max-width: 1761px) and (min-width: 0px) {
+    #photo_bar {
+        height: 85%;
+    }
+}
+
+@media only screen and  (max-width: 1090px) and (min-width: 0px) {
+    .splitter {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: center;
+        height: 100%;
+    }
+
+    .image_box {
+        display: none;
+        order: 2;
+        background-image: url("man1.jpg");
+    }
+
+}
