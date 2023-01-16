@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+
+
+    <item ID="1">
+        <Name>Гибискус</Name>
+        <Price>500</Price>
+        <HoursToApply>1</HoursToApply>
+        <img>imgs/plant5.jpg</img>
+    </item>
+    <item ID="2">
+        <Name>Папоротник</Name>
+        <Price>900</Price>
+        <HoursToApply>3</HoursToApply>
+        <img>imgs/plant7.jpg</img>
+    </item>
+    <item ID="3">
+        <Name>Подорожник</Name>
+        <Price>300</Price>
+        <HoursToApply>2</HoursToApply>
+        <img>imgs/plant6.jpg</img>
+    </item>
+    <item ID="4">
+        <Name>Канабис</Name>
+        <Price>9000</Price>
+        <HoursToApply>24</HoursToApply>
+        <img>imgs/plant1.jpg</img>
+    </item>
+</root>
